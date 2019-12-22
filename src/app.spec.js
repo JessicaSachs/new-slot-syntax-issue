@@ -1,6 +1,8 @@
-import { shallowMount } from "@vue/test-utils";
-import App from "./App.vue";
-import Foo from "./Foo.vue";
+const VTU = require("@vue/test-utils");
+const App = require("./App.vue");
+const Foo = require("./Foo.vue");
+
+const shallowMount = VTU.shallowMount;
 
 test("render old syntax slot", () => {
   const wrapper = shallowMount(App);

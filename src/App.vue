@@ -10,9 +10,9 @@
 </template>
 
 <script>
-import Foo from "./Foo";
+const Foo = require("./Foo");
 
-export default {
+module.exports = {
   components: { Foo }
 };
 </script>
